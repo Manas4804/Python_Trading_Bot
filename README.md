@@ -61,6 +61,15 @@ BINANCE_API_KEY=your_testnet_api_key
 BINANCE_API_SECRET=your_testnet_api_secret
 ```
 
+## Getting Binance Futures Testnet API credentials
+
+1. Go to https://testnet.binancefuture.com
+2. Click **Create** to register a testnet account
+3. Log in and scroll down to the **API Key** tab
+4. Click **Generate HMAC_SHA256 Key**
+5. Copy both the API Key and Secret Key immediately. The Secret Key is shown only once
+6. Paste them into your `.env` file
+
 ## Usage
 
 Run commands from the `trading_bot` directory.
